@@ -1,51 +1,37 @@
-familia = ["Roger","Cris","Manu","Vini","Selina"]
-#print(familia)
-#print(familia[0])
-#print(familia[-1])
-#print(familia[2:])
-#print(familia[2:4])
+#def big_mac():
+#    print("sanduiche big mac")
 
-#print(familia)
-#familia[3] = "Roger"
-#print(familia)
+#print ("incio")
+#big_mac()
+#big_mac()
+#big_mac()
+#print ("fim")
 
-#familia.extend(["Fernando","Rosania"])
-#print(familia)
+def fazer_big_mac(nome):
+    print(f"sanduiche big mac {nome}")
+#fazer_big_mac("Roger")
+#fazer_big_mac("Cris")
+#fazer_big_mac("Manu")
 
-#familia.append("Spock")
-#print(familia)
+def fazer_batata(tamanho):
+    print(f"batata {tamanho}")
 
-#familia.insert(2,"Spock")
-#print(familia)
+def preparar_refrigerante(tipo,tamanho):
+    print(f"{tipo} {tamanho}")
 
-#familia.pop()
-#print(familia)
+#fazer_big_mac("Roger")
+#fazer_batata("grande")
+#preparar_refrigerante("coca","média")
 
-#familia.remove("Spock")
-#print(familia)
+def fazer_combo_big_mac(nome, tamanho_batata,tipo_refri, tamanho_refri):
+    fazer_big_mac(nome)
+    fazer_batata(tamanho_batata)
+    preparar_refrigerante(tipo_refri,tamanho_refri)
 
-#familia.clear()
-#print(familia)
+#fazer_combo_big_mac("Roger","Grande","Coca","Média")
 
-#print(familia.index("Roger"))
-#print(familia.count("Spock"))
+def soma_num(num1,num2):
+    return num1 + num2
 
-#idade_familia=[34,36,13,11,2]
-#print(idade_familia)
-#idade_familia.sort()
-#print(idade_familia)
-#idade_familia.reverse()
-#print(idade_familia)
-
-#familia2 = familia.copy()
-#print(familia2)
-#familia.remove("Roger")
-#print(familia)
-#print(familia2)
-
-coordenadas = (-49,-36)
-print(coordenadas)
-
-
-
-
+resultado = soma_num(15,20)
+print(resultado)
