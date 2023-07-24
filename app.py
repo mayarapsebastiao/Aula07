@@ -34,4 +34,12 @@ def soma_num(num1,num2):
     return num1 + num2
 
 resultado = soma_num(15,20)
+
+def maior_num(lista_num):
+    lista_num.sort()
+    lista_num.reverse()
+    maior_num = lista_num[0]
+    return maior_num
+
+resultado = maior_num([321,450,2,10,3,0,6,55])
 print(resultado)
